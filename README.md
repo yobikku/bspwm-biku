@@ -1,32 +1,38 @@
 # My BSPWM Setup
-The x11 bspwm setup I use while waiting for Hyperland/Wayland to be more stable. This contains mainly x11 programs, I mainly use utils and tools that will work both on wayland and xorg at my dotfiles.
+The x11 bspwm setup I use while waiting for Hyperland/Wayland to be more stable. This contains mainly x11 programs, I strive to mainly use utils and tools that will work both on wayland and xorg at my dotfiles.
+
+>This is a post install script, I recommend installing Debian/Ubuntu, Fedora or Arch on a minimal/server install.
+
+The `install.sh` mainly use `stow` for symlinking for now until I'm tired/done of ricing.
 
 ## Programs
 Make sure to install these programs:
-`bspwm sxhkd polybar rofi alacritty dunst picom`
+`stow bspwm sxhkd polybar rofi alacritty dunst picom`
 
 Additional X11 utils I use:
-`xrandr arandr autorandr`
+`xrandr arandr autorandr feh`
 
 GUI Utils list:
-`pavucontrol arandr network-manager-applet libmpdclient mpd ncmpcpp`
+`pavucontrol network-manager-applet libmpdclient mpd ncmpcpp`
+
+## TODO:
+- [ ] Create Install Script
+- [ ] Hotkeys from my i3 and expound
+- [ ] Make ncmpcpp mpd work and add to polybar
 
 ## Roadmap:
-- [ ] Hotkeys from my i3 and expound
-- [ ] Create Install Script
-- [ ] Make ncmpcpp mpd work and add to polybar
 - [ ] Minimal Kanagawa Rice
     - [ ] GTK
     - [ ] Alacritty / Kitty
+- [ ] Make a toggle between Kanagawa Themes (Lotus, Wave, Dragon)
 
 ---
 
-## (For Rice) Kanagawa Themed Applications:
-### Firefox
-https://addons.mozilla.org/en-US/firefox/addon/kanagawa-for-firefox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+## 
+I mainly use the Kanagawa to rice minimally. Here is a [list](https://github.com/yobikku/awesome-kanagawa) of it for various applications 
 
-## VSCode
-I installed it manually
+## Notes
+I install for VScode manually:
 https://marketplace.visualstudio.com/items?itemName=metaphore.kanagawa-vscode-color-theme
 
 **Installation**
