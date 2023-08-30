@@ -17,6 +17,9 @@ GUI Utils list:
 
 ## TODO:
 - [ ] Create Install Script
+    - [ ] Arch
+    - [ ] Debian/Ubuntu
+    - [ ] Fedora
 - [ ] Hotkeys from my i3 and expound
 - [ ] Make ncmpcpp mpd work and add to polybar
 
