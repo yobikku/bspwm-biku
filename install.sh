@@ -27,6 +27,10 @@ makepkg -si --noconfirm
 cd ~
 rm -rf ~/$AUR_HELPER
 
+## Install Nice-To-Haves
+pacman -S zathura zathura-djvu zathura-pdf-mupdf \ # Install Zathura
+	feh
+
 # Make Default Directories
 mkdir ~/Desktop
 mkdir ~/Documents
@@ -36,3 +40,7 @@ mkdir ~/Pictures
 mkdir ~/Public
 mkdir ~/Templates
 mkdir ~/Videos
+
+# Set Default Applications
+xdg-mime default org.pwmt.zathura.desktop application/pdf # Zathura for pdf
+
